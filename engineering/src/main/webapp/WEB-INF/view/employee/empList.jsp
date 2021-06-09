@@ -7,6 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-<a href="emp/empList">직원정보 리스트</a>
+직원리스트 페이지 입니다. <br />
+<a href="empReget">직원등록</a>
 </body>
 </html>

@@ -26,10 +26,10 @@
    <init-param>
       <param-name>contextConfigLocation</param-name>
       <param-value>
-          classspath:spring-context.xml
-          classspath:spring-jdbc.xml
-          classspath:spring-main.xml
-          classspath:spring-employees.xml
+          classpath:spring-context.xml
+          classpath:spring-jdbc.xml
+          classpath:spring-main.xml
+          classpath:spring-employees.xml
      </param-value>
   </init-param>
   </servlet>

@@ -1,5 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
+    pageEncoding="UTF-8" isELIgnored="false"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -11,48 +11,48 @@
 <table border=1 width="600" align="center">
     <tr><td width="100">직원번호</td>
         <td width="470">
-           <input type="text" name="empNo">
+           <input type="text" name="empNo" value="${empNo1 }">
            </td></tr>
-<tr><td>아이디</td>
+    <tr><td>아이디</td>
         <td>
             <input type="text" name = "empId">
             </td></tr>
-<tr><td>비밀번호</td>
+    <tr><td>비밀번호</td>
         <td>
             <input type="text" name = "empPw">
             </td></tr>
-<tr><td>비밀번호 확인</td>
+    <tr><td>비밀번호 확인</td>
         <td>
             <input type="text" name = "empPwCon">
             </td></tr>
-<tr><td>이름</td>
+    <tr><td>이름</td>
         <td>
             <input type="text" name = "empName">
             </td></tr>
-<tr><td>부서명</td>
+    <tr><td>부서명</td>
         <td>
             <input type="text" name = "empDeptNumber">
             </td></tr>
-<tr><td>이메일</td>
+    <tr><td>이메일</td>
         <td>
             <input type="text" name = "empEmail">
             </td></tr>
-<tr><td>연락처</td>
+    <tr><td>연락처</td>
         <td>
             <input type="text" name = "empPhoneNumber"
                 placeholder=010-1234-1234>
             </td></tr>           
-<tr><td>입사일</td>
+    <tr><td>입사일</td>
         <td>
             <input type="text" name = "hireDate"
                 placeholder="2000-10-25">
-<tr><td>급여</td>
+    <tr><td>급여</td>
         <td>
             <input type="text" name = "salary">
             </td></tr>                   
-<tr><td colspan=2 align="center">
-    <input type="submit" value="직원등록 완료">
-    <input type="reset" value="취소">
+    <tr><td colspan=2 align="center">
+        <input type="submit" value="직원등록 완료">
+        <input type="reset" value="취소">
             </td></tr>                                                             
 </table>
 </form>
